@@ -1,0 +1,166 @@
+D:\Asp.net\HallManagement\HallManagement\bin\ApplicationInsights.config
+D:\Asp.net\HallManagement\HallManagement\bin\roslyn\csc.exe
+D:\Asp.net\HallManagement\HallManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Asp.net\HallManagement\HallManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Asp.net\HallManagement\HallManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Asp.net\HallManagement\HallManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Asp.net\HallManagement\HallManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Asp.net\HallManagement\HallManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Asp.net\HallManagement\HallManagement\bin\roslyn\System.Collections.Immutable.dll
+D:\Asp.net\HallManagement\HallManagement\bin\roslyn\System.Reflection.Metadata.dll
+D:\Asp.net\HallManagement\HallManagement\bin\roslyn\vbc.exe
+D:\Asp.net\HallManagement\HallManagement\bin\roslyn\VBCSCompiler.exe
+D:\Asp.net\HallManagement\HallManagement\bin\roslyn\VBCSCompiler.exe.config
+D:\Asp.net\HallManagement\HallManagement\bin\HallManagement.dll.config
+D:\Asp.net\HallManagement\HallManagement\bin\HallManagement.dll
+D:\Asp.net\HallManagement\HallManagement\bin\HallManagement.pdb
+D:\Asp.net\HallManagement\HallManagement\bin\Antlr3.Runtime.dll
+D:\Asp.net\HallManagement\HallManagement\bin\AspNet.Identity.MySQL.dll
+D:\Asp.net\HallManagement\HallManagement\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Asp.net\HallManagement\HallManagement\bin\AspNet.ScriptManager.jQuery.dll
+D:\Asp.net\HallManagement\HallManagement\bin\EntityFramework.dll
+D:\Asp.net\HallManagement\HallManagement\bin\EntityFramework.SqlServer.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AI.DependencyCollector.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AI.Web.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AI.WindowsServer.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.ApplicationInsights.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Security.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Google.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Web.Infrastructure.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Newtonsoft.Json.dll
+D:\Asp.net\HallManagement\HallManagement\bin\Owin.dll
+D:\Asp.net\HallManagement\HallManagement\bin\System.Web.Optimization.dll
+D:\Asp.net\HallManagement\HallManagement\bin\System.Web.Providers.dll
+D:\Asp.net\HallManagement\HallManagement\bin\WebGrease.dll
+D:\Asp.net\HallManagement\HallManagement\bin\MySql.Data.dll
+D:\Asp.net\HallManagement\HallManagement\bin\AspNet.Identity.MySQL.pdb
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AI.DependencyCollector.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AI.Web.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AI.WindowsServer.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.ApplicationInsights.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Asp.net\HallManagement\HallManagement\bin\System.Web.Optimization.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Antlr3.Runtime.pdb
+D:\Asp.net\HallManagement\HallManagement\bin\Newtonsoft.Json.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Asp.net\HallManagement\HallManagement\bin\EntityFramework.xml
+D:\Asp.net\HallManagement\HallManagement\bin\EntityFramework.SqlServer.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Asp.net\HallManagement\HallManagement\bin\System.Web.Providers.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Security.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Google.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Asp.net\HallManagement\HallManagement\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Asp.net\HallManagement\HallManagement\obj\Debug\HallManagement.csprojResolveAssemblyReference.cache
+D:\Asp.net\HallManagement\HallManagement\obj\Debug\HallManagement.dll
+D:\Asp.net\HallManagement\HallManagement\obj\Debug\HallManagement.pdb
+D:\Asp.net\HallManagement\HallManagement\bin\itextsharp.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\ApplicationInsights.config
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\roslyn\csc.exe
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\roslyn\System.Collections.Immutable.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\roslyn\System.Reflection.Metadata.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\roslyn\vbc.exe
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\roslyn\VBCSCompiler.exe
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\roslyn\VBCSCompiler.exe.config
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\HallManagement.dll.config
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\HallManagement.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\HallManagement.pdb
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Antlr3.Runtime.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\AspNet.Identity.MySQL.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\AspNet.ScriptManager.bootstrap.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\AspNet.ScriptManager.jQuery.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\EntityFramework.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\EntityFramework.SqlServer.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\itextsharp.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AI.Agent.Intercept.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AI.DependencyCollector.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AI.Web.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AI.WindowsServer.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.ApplicationInsights.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AspNet.Identity.Core.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Cookies.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Security.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Facebook.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Google.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Security.OAuth.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Twitter.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.ScriptManager.WebForms.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Web.Infrastructure.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Newtonsoft.Json.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Owin.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\System.Web.Optimization.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\System.Web.Providers.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\WebGrease.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\MySql.Data.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\AspNet.Identity.MySQL.pdb
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AI.DependencyCollector.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AI.Web.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AI.WindowsServer.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.ApplicationInsights.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\System.Web.Optimization.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Antlr3.Runtime.pdb
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Newtonsoft.Json.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\EntityFramework.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\EntityFramework.SqlServer.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AspNet.Identity.Core.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\System.Web.Providers.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Security.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Facebook.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Cookies.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Google.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Security.Twitter.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\bin\Microsoft.Owin.Security.OAuth.xml
+D:\DB Lab\ASP Project\HallManagement\HallManagement\obj\Debug\HallManagement.csprojResolveAssemblyReference.cache
+D:\DB Lab\ASP Project\HallManagement\HallManagement\obj\Debug\HallManagement.dll
+D:\DB Lab\ASP Project\HallManagement\HallManagement\obj\Debug\HallManagement.pdb

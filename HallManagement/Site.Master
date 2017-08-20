@@ -1,0 +1,369 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="HallManagement.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <style>
+        .dropbtn {
+            background-color: #e0e0e0;
+            color: #777777;
+            padding: 14px;
+            font-size: 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f8f8f8;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: #777777;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .dropdown-content a:hover {
+                    color: #333333;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #e7e7e7;
+            color: #333333;
+        }
+        
+        .buttone {
+            position: relative;
+            background-color: #d9534f;
+            border: none;
+            font-size: 15px;
+            color: white;
+            padding: 7px;
+            width: 100px;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+            .buttone:after {
+                content: "";
+                background: #ebb3b1;
+                display: block;
+                position: absolute;
+                padding-top: 300%;
+                padding-left: 350%;
+                margin-left: -20px !important;
+                margin-top: -120%;
+                opacity: 0;
+                transition: all 0.8s;
+            }
+
+            .buttone:active:after {
+                padding: 0;
+                margin: 0;
+                opacity: 1;
+                transition: 0s;
+            }
+
+            .buttone:hover {
+                background-color: #d2322d;
+            }
+
+        .buttons {
+            position: relative;
+            background-color: #5cb85c;
+            border: none;
+            font-size: 15px;
+            color: white;
+            padding: 7px;
+            width: 100px;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+            .buttons:after {
+                content: "";
+                background: #c3e5c3;
+                display: block;
+                position: absolute;
+                padding-top: 300%;
+                padding-left: 350%;
+                margin-left: -20px !important;
+                margin-top: -120%;
+                opacity: 0;
+                transition: all 0.8s;
+            }
+
+            .buttons:active:after {
+                padding: 0;
+                margin: 0;
+                opacity: 1;
+                transition: 0s;
+            }
+
+            .buttons:hover {
+                background-color: #47a447;
+            }
+
+        .buttonp {
+            position: relative;
+            background-color: #428bca;
+            border: none;
+            font-size: 15px;
+            color: white;
+            padding: 7px;
+            width: 100px;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+            .buttonp:after {
+                content: "";
+                background: #b9d2e8;
+                display: block;
+                position: absolute;
+                padding-top: 300%;
+                padding-left: 350%;
+                margin-left: -20px !important;
+                margin-top: -120%;
+                opacity: 0;
+                transition: all 0.8s;
+            }
+
+            .buttonp:active:after {
+                padding: 0;
+                margin: 0;
+                opacity: 1;
+                transition: 0s;
+            }
+
+            .buttonp:hover {
+                background-color: #3276b1;
+            }
+
+               .buttonf {
+            position: relative;
+            background-color:#a0a0a0;
+            border: none;
+            font-size: 15px;
+            color: white;
+            padding: 6px;
+            width: 100px;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+            .buttonf:after {
+                content: "";
+                background: #cbcbcb;
+                display: block;
+                position: absolute;
+                padding-top: 300%;
+                padding-left: 350%;
+                margin-left: -20px !important;
+                margin-top: -120%;
+                opacity: 0;
+                transition: all 0.8s;
+            }
+
+            .buttonf:active:after {
+                padding: 0;
+                margin: 0;
+                opacity: 1;
+                transition: 0s;
+            }
+
+            .buttonf:hover {
+                background-color: #777777;
+            }
+
+    </style>
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div class="navbar navbar-default navbar-fixed-top" style="background-color: #e0e0e0">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/">Hall Management</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/"><span class="glyphicon glyphicon-home" style="padding-right: 3px"></span>Home</a></li>
+                        <li><a runat="server" href="~/About"><span class="glyphicon glyphicon-book" style="padding-right: 3px"></span>About</a></li>
+                        <li><a runat="server" href="~/Contact"><span class="glyphicon glyphicon-envelope" style="padding-right: 3px"></span>Contact</a></li>
+                    </ul>
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                        <AnonymousTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a runat="server" href="~/Application" title="Apply for seat"><span class="glyphicon glyphicon-edit" style="padding-right: 2px"></span>Apply</a></li>
+                                <%--<li><a runat="server" href="~/Account/Register">Register</a></li>--%>
+                                <li><a runat="server" href="~/Account/Login"><span class="glyphicon glyphicon-log-in" style="padding-right: 4px"></span>Sign in</a></li>
+                            </ul>
+                        </AnonymousTemplate>
+                        <%--<LoggedInTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a runat="server" href="~/Teacher/Dashboard.aspx">Dashboard</a></li>
+                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Hello, <%: new AspNet.Identity.MySQL.UserTable<AspNet.Identity.MySQL.IdentityUser>(new AspNet.Identity.MySQL.MySQLDatabase()).GetUserById(Context.User.Identity.GetUserId()).FirstName  %></a></li>
+                                <li>
+                                    <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Sign out" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                </li>
+                            </ul>
+                        </LoggedInTemplate>--%>
+                        <RoleGroups>
+                            <asp:RoleGroup Roles="Admin">
+                                <ContentTemplate>
+                                    <ul class="nav navbar-nav">
+                                        <li><a runat="server" href="~/Admin/Dashboard.aspx" title="Your personal info"><span class="glyphicon glyphicon-th-large" style="padding-right: 2px"></span>Dashboard</a></li>
+                                        <li id="adminManage" class="dropdown">
+                                            <button class="dropbtn"><span class="glyphicon glyphicon-wrench" style="padding-right: 1px"></span>Accessibilities<span class="glyphicon glyphicon-chevron-down" style="font-size:9px; padding-left:2px"></span></button>
+                                            <div class="dropdown-content">
+                                                <a runat="server" href="~/Common/ViewApplication"><span class="glyphicon glyphicon-list-alt" style="padding-right: 5px"></span>View Application</a>
+                                                <a runat="server" href="~/Common/RegisterApplication"><span class="glyphicon glyphicon-edit" style="padding-right: 3px"></span>Register Student</a>
+                                                <a runat="server" href="~/Account/Register"><span class="glyphicon glyphicon-edit" style="padding-right: 3px"></span>Register</a>
+                                                <a runat="server" href="~/Common/Export"><span class="glyphicon glyphicon-send" style="padding-right: 3px"></span>Export</a>
+                                                <a runat="server" href="~/Admin/NewEntry"><span class="	glyphicon glyphicon-save" style="padding-right: 3px"></span>New Entry</a>
+                                                <a runat="server" href="~/Admin/ManageWebsite"><span class="glyphicon glyphicon-th" style="padding-right: 3px"></span>Manage Website</a>
+                                            </div>
+                                            <%-- <a class="dropdown-toggle " data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-wrench" style="padding-right: 1px"></span>Accessibilities<span class="caret"></span></a>
+                                            <ul class="dropdown-menu navbar-nav" style="background-color: #f8f8f8">
+                                                <li><a runat="server" href="~/Account/Register"><span class="glyphicon glyphicon-edit" style="padding-right: 3px"></span>Register</a></li>
+                                                <li><a runat="server" href="~/Common/RegisterApplication"><span class="glyphicon glyphicon-edit" style="padding-right: 3px"></span>Register Student</a></li>
+                                                <li><a runat="server" href="~/Common/ViewApplication"><span class="glyphicon glyphicon-list-alt" style="padding-right: 5px"></span>View Application</a></li>
+                                                <li><a runat="server" href="~/Admin/NewEntry"><span class="	glyphicon glyphicon-save" style="padding-right: 3px"></span>New Entry</a></li>
+                                                <li><a runat="server" href="~/Admin/ManageWebsite"><span class="glyphicon glyphicon-th" style="padding-right: 3px"></span>Manage Website</a></li>
+                                            </ul>--%>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a runat="server" href="~/Account/Manage" title="Manage your account"><span class="glyphicon glyphicon-cog" style="padding-right: 2px"></span>Hello, <%: new AspNet.Identity.MySQL.UserTable<AspNet.Identity.MySQL.IdentityUser>(new AspNet.Identity.MySQL.MySQLDatabase()).GetUserById(Context.User.Identity.GetUserId()).FirstName %></a></li>
+                                        <li>
+                                            <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Sign out" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                        </li>
+                                    </ul>
+                                </ContentTemplate>
+                            </asp:RoleGroup>
+                            <asp:RoleGroup Roles="HallAuthority">
+                                <ContentTemplate>
+                                    <ul class="nav navbar-nav">
+                                        <li><a runat="server" href="~/HallAuthority/Dashboard.aspx" title="Your personal info"><span class="glyphicon glyphicon-th-large" style="padding-right: 2px"></span>Dashboard</a></li>
+                                        <li id="hallAuthorityManage" class="dropdown">
+                                            <button class="dropbtn"><span class="glyphicon glyphicon-wrench" style="padding-right: 1px"></span>Accessibilities<span class="glyphicon glyphicon-chevron-down" style="font-size: 9px; padding-left: 2px"></span></button>
+                                            <div class="dropdown-content">
+                                                <a runat="server" href="~/Common/ViewApplication"><span class="glyphicon glyphicon-list-alt" style="padding-right: 5px"></span>View Application</a>
+                                                <a runat="server" href="~/Common/ViewStudent"><span class="glyphicon glyphicon-list-alt" style="padding-right: 5px"></span>View Student</a>
+                                                <a runat="server" href="~/Common/RegisterApplication"><span class="glyphicon glyphicon-edit" style="padding-right: 3px"></span>Register Student</a>
+                                                <a runat="server" href="~/Account/Register"><span class="glyphicon glyphicon-edit" style="padding-right: 3px"></span>Register</a>
+                                                <a runat="server" href="~/Common/Export"><span class="glyphicon glyphicon-send" style="padding-right: 3px"></span>Export</a>
+                                            </div>
+
+                                            <%--  <a class="dropdown-toggle " data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-wrench" style="padding-right: 1px"></span>Accessibilities<span class="caret"></span></a>
+                                            <ul class="dropdown-menu navbar-nav" style="background-color: #f8f8f8">
+                                                <li><a runat="server" href="~/Account/Register"><span class="glyphicon glyphicon-edit" style="padding-right: 3px"></span>Register</a></li>
+                                                <li><a runat="server" href="~/Common/RegisterApplication"><span class="glyphicon glyphicon-edit" style="padding-right: 3px"></span>Register Student</a></li>
+                                                <li><a runat="server" href="~/Common/ViewApplication"><span class="glyphicon glyphicon-list-alt" style="padding-right: 5px"></span>View Application</a></li>
+                                            </ul>--%>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a runat="server" href="~/Account/Manage" title="Manage your account"><span class="glyphicon glyphicon-cog" style="padding-right: 2px"></span>Hello, <%: new AspNet.Identity.MySQL.UserTable<AspNet.Identity.MySQL.IdentityUser>(new AspNet.Identity.MySQL.MySQLDatabase()).GetUserById(Context.User.Identity.GetUserId()).FirstName %></a></li>
+                                        <li>
+                                            <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Sign out" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                        </li>
+                                    </ul>
+                                </ContentTemplate>
+                            </asp:RoleGroup>
+                            <asp:RoleGroup Roles="Student">
+                                <ContentTemplate>
+                                    <ul class="nav navbar-nav">
+                                        <li><a runat="server" href="~/Student/Dashboard.aspx" title="Your personal info"><span class="glyphicon glyphicon-th-large" style="padding-right: 2px"></span>Dashboard</a></li>
+                                    </ul>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a runat="server" href="~/Account/Manage" title="Manage your account"><span class="glyphicon glyphicon-cog" style="padding-right: 2px"></span>Hello, <%: new AspNet.Identity.MySQL.UserTable<AspNet.Identity.MySQL.IdentityUser>(new AspNet.Identity.MySQL.MySQLDatabase()).GetUserById(Context.User.Identity.GetUserId()).FirstName  %></a></li>
+                                        <li>
+                                            <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Sign out" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                        </li>
+                                    </ul>
+                                </ContentTemplate>
+                            </asp:RoleGroup>
+                        </RoleGroups>
+                    </asp:LoginView>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <br />
+        </div>
+        <footer style="padding: 15px; background-color: #e0e0e0">
+            <p class="col-md-offset-1">&copy; <%: DateTime.Now.Year %> - CSE, Khulna University</p>
+        </footer>
+    </form>
+</body>
+</html>

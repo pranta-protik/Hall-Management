@@ -1,6 +1,6 @@
 # Hall Management
 
-A Hall management system for Khulna University based on ASP.NET. It provides effective tools to manage all the important tasks needed in a university hall.
+A Hall management system for Khulna University based on ASP.NET. It provides effective tools to manage all the important tasks needed in a university hall. It was developed as a part of my database course.
 
 
 Problem: Unable to start IIS Express Problem (if occur)

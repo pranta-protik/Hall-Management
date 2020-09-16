@@ -1,5 +1,8 @@
 # Hall Management
 
+A Hall management system for Khulna University based on ASP.NET. It provides effective tools to manage all the important tasks needed in a university hall.
+
+
 Problem: Unable to start IIS Express Problem (if occur)
 
 Solve:
